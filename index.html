@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="all.css">
+    <script src="all.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="jquery-3.3.1.slim.js"></script> -->
+    <title>Robby Gibrant / Vcard</title>
+</head>
+<body>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>R</h1>
+            </div>
+            <div class="navbar">
+                <nav class="menu" id="menu-list">
+                    <ul class="icon">
+                        <li><a href="#homes"><i class="fas fa-home"></i></a><span class="tooltip" id="home">home</span></li>
+                        <li><a href="#abouts"><i class="fas fa-user"></i></a><span class="tooltip" id="about">about</span></li>
+                        <li><a href="#resumes"><i class="fas fa-cogs"></i></a><span class="tooltip" id="resume">resume</span></li>
+                        <li><a href="#portfolios"><i class="fas fa-book"></i></a><span class="tooltip" id="portfolio">portfolio</span></li>
+                        <li><a href="#contacts"><i class="fas fa-phone"></i></a><span class="tooltip" id="contact">contact</span></li>
+                    </ul>
+                </nav>
+                <nav class="social-media">
+                    <ul class="icon">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
+                <i onclick="toggle()" class="fas fa-bars"></i>
+            </div>
+        </aside>
+        <main class="content">
+            <section class="cd-section home" id="homes">
+                <h1>Robby Gibrant</h1>
+                <p><a href="#" class="typewrite" data-period="1000" data-type='[ "I am Web Developer", "I Love Design", "I am UI Enginer soon", "I am Art-Painter", "My Address in Pangandaran" ]'><span class="wrap"></span></a></p>
+            </section>
+            <section class="cd-section user" id="abouts">
+                <div class="flex about-inner">
+                    <div class="prolog">
+                        <h1>about me</h1>
+                        <p><span>Hello, I’m a Robby</span>, web-developer based on Pangandaran. I have few experience in web site design & building and customization. Also I am good at <span>html, css, bootstrap, javascript, jquery.</span></p>
+                        <ul class="btn">
+                            <li class="btn-download"><a href="#"><i class="fas fa-download"></i> Download CV</a></li>
+                            <li class="link"><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li class="link"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                            <li class="link"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="service">
+                        <h2 class="sub-title"><span class="bg-span">our</span> service</h2>
+                        <div class="row">
+                            <div class="col-md-6 our icon-font">
+                                <h3><i class="fab fa-html5"></i></h3>
+                                <label for="h3">Web Development</label>
+                                <p>Modern and mobile-ready website that will help of your marketing.</p>
+                            </div>
+                            <div class="col-md-6 our icon-font">
+                                <h3><i class="fas fa-camera"></i></h3>
+                                <label for="h3">Design</label>
+                                <p>Design logo or wallpaper and anymore with Photoshop application.</p>
+                            </div>
+                            <div class="col-md-6 our icon-font">
+                                <h3><i class="fas fa-brush"></i></h3>
+                                <label for="h3">Art Painter</label>
+                                <p>Drawing on canvas with fine brush & oilcolor quality.</p>
+                            </div>
+                            <div class="col-md-6 our icon-font">
+                                <h3><i class="fas fa-concierge-bell"></i></h3>
+                                <label for="h3">Freelancer</label>
+                                <p>Ready for remote work jobs of any country.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex background">
+                </div>
+            </section>
+            <section class="cd-section cogs" id="resumes">
+                <div class="flex resume-inner">
+                    <div class="prolog">
+                        <h1>resume</h1>
+                    </div>
+                    <div class="resume">
+                        <div class="row">
+                            <div class="col-md-6 education">
+                                <h2 class="sub-title"><span class="bg-span">my</span> education</h2>
+                                <div class="our">
+                                    <h3>TK Aisyiyah 2</h3>
+                                    <p>I was school in this Kindergarten Aisyiyah 2 for 2 years from 2005-2007</p>
+                                    <hr>
+                                    <h3>SDN 3 Cijulang</h3>
+                                    <p>My school experience still next to Elementary School 3 Cijulang for 6 years from 2007-2012</p>
+                                    <hr>
+                                    <h3>SMPN 1 Cijulang</h3>
+                                    <p>And after I graduate from Elementary School, I next study to Junior High School 1 Cijulang for 3 years from 2012-2015</p>
+                                    <hr>
+                                    <h3>SMKN 1 Cijulang</h3>
+                                    <p>My study next to Vocabulation High School for 3 years from 2015-2017</p>
+                                    <hr>
+                                    <h3>QODR</h3>
+                                    <p>And now I study at QODR, where it's based Programming School and I taked Frontend Web Development</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 prestation">
+                                <h2 class="sub-title"><span class="bg-span">my</span> prestation</h2>
+                                <div class="our">
+                                    <h3>1st Drawing for Cijulang Sub-District</h3>
+                                    <p>I won the challenge at Elementary School ago 2010</p>
+                                    <hr>
+                                    <h3>1st Art-Painting for Pangandaran District</h3>
+                                    <p>And again at 2013 I won again but its little different, at timed ago I was a Student at Junior High School 1 Cijulang</p>
+                                    <hr>
+                                    <h3>1st Silat Martial Art for Pangandaran District</h3>
+                                    <p>I won the challenge of Silat TGR once I school at Junior High School and I very happy</p>
+                                    <hr>
+                                    <h3>4th Art-Painting for Bandung Province</h3>
+                                    <p>And after I won the challenge in Pangandaran District, next I challenge again at Province and received the 4th Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 hardskill">
+                                <h2 class="sub-title"><span class="bg-span">hard</span> skills</h2>
+                                <div class="our">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <div class="skill-name">
+                                                <h4>html</h4>
+                                                <div class="skillbar">
+                                                    <div class="html"></div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="skill-name">
+                                                <h4>css</h4>
+                                                <div class="skillbar">
+                                                    <div class="css"></div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="skill-name">
+                                                <h4>bootstrap</h4>
+                                                <div class="skillbar">
+                                                    <div class="bootstrap"></div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="skill-name">
+                                                <h4>javascript</h4>
+                                                <div class="skillbar">
+                                                    <div class="javascript"></div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="skill-name">
+                                                <h4>jquery</h4>
+                                                <div class="skillbar">
+                                                    <div class="jquery"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 softskill">
+                                    <h2 class="sub-title"><span class="bg-span">soft</span> skills</h2>
+                                    <div class="our">
+                                        <div class="skill">
+                                            <div class="skill-inner">
+                                                <div class="skill-name">
+                                                    <h4>communication</h4>
+                                                    <div class="skillbar">
+                                                        <div class="communication"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="skill-name">
+                                                    <h4>teamwork</h4>
+                                                    <div class="skillbar">
+                                                        <div class="teamwork"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="skill-name">
+                                                    <h4>language</h4>
+                                                    <div class="skillbar">
+                                                        <div class="language"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="skill-name">
+                                                    <h4>leadership</h4>
+                                                    <div class="skillbar">
+                                                        <div class="leadership"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="skill-name">
+                                                    <h4>responsible</h4>
+                                                    <div class="skillbar">
+                                                        <div class="responsible"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flex background"></div>
+            </section>
+            <section class="cd-section portfolio" id="portfolios">
+                <div class="flex portfolio-inner">
+                    <div class="prolog">
+                        <h1>portfolio</h1>
+                    </div>
+                    <div class="card-item">
+                        <h2 class="sub-title"><span class="bg-span">my</span> portfolio</h2>
+                            <div class="row">
+                                <div class="col-md-6 education">
+                                    <div class="our card-link">
+                                        <div class="image"><img src="army.PNG" alt="Army Template" onclick="myFunction(this);"></div>
+                                        <div class="desc">
+                                            <p>Army Template</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 prestation">
+                                    <div class="our card-link">
+                                        <div class="image"><img src="moderno.PNG" alt="Moderno" onclick="myFunction(this);"></div>
+                                        <div class="desc">
+                                            <p>Moderno</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 prestation">
+                                    <div class="our card-link">
+                                        <div class="image"><img src="qodr-split.PNG" alt="qodr-split" onclick="myFunction(this);"></div>
+                                        <div class="desc">
+                                            <p>Qodr Split Screen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 prestation">
+                                    <div class="our card-link">
+                                        <div class="image"><img src="grid.PNG" alt="Grid" onclick="myFunction(this);"></div>
+                                        <div class="desc">
+                                            <p>Grid Template</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 prestation">
+                                    <div class="our card-link">
+                                        <div class="image"><img src="codeshero.PNG" alt="Codeshero" onclick="myFunction(this);"></div>
+                                        <div class="desc">
+                                            <p>Codeshero</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                                <img id="expandedImg" style="width:100%">
+                            <div id="imgtext"></div>
+                        </div>
+                    </div>
+                <div class="flex background"></div>
+            </section>
+            <section class="cd-section contact" id="contacts">
+                <div class="flex contact-inner">
+                    <div class="prolog">
+                        <h1>contact</h1>
+                    </div>
+                    <div class="contact-list">
+                        <h2 class="sub-title"><span class="bg-span">get</span> in touch</h2>
+                            <div class="row">
+                                <div class="col-md-6 col-md-3 our icon-font">
+                                    <div class="flexrow"><h3>
+                                        <i class="fas fa-map-marker-alt"></i></h3>
+                                        <label for="h3">Address</label>
+                                    </div>
+                                    <p>Cijulang, Indonesia</p>
+                                </div>
+                                <div class="col-md-6 col-md-3 our icon-font">
+                                    <div class="flexrow">
+                                        <h3><i class="fas fa-at"></i></h3>
+                                        <label for="h3">Email</label>
+                                    </div>
+                                    <p>gibrant49@gmail.com</p>
+                                </div>
+                                <div class="col-md-6 col-md-3 our icon-font">
+                                    <div class="flexrow">
+                                        <h3><i class="fas fa-phone"></i></h3>
+                                        <label for="h3">Phone</label>
+                                    </div>
+                                    <p>081223535738</p>
+                                </div>
+                                <div class="col-md-6 col-md-3 our icon-font">
+                                    <div class="flexrow">
+                                        <h3><i class="fas fa-check-square"></i></h3>
+                                        <label for="h3">Freelance</label>
+                                    </div>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <h2 class="sub-title"><span class="bg-span">Contact</span> Form</h2>
+                            <div class="row bg-row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                                <div class="col-md-6">
+                                   <input type="email" placeholder="Your Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="comment" id="comment" placeholder="Your Message" rows="20"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="submit btn-bgdark">Send Messages &nbsp<i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flex">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.589836309152!2d108.46272631477773!3d-7.7270784944303665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDMnMzcuNSJTIDEwOMKwMjcnNTMuNyJF!5e0!3m2!1sid!2sid!4v1538380447178" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
