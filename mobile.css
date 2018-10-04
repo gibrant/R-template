@@ -1,0 +1,254 @@
+@media all and (max-width: 1024px) {
+    .prolog h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    
+    /* ==============
+    universal
+    ============== */
+
+    body {
+        overflow: hidden;
+    }
+
+    .page {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .prolog h1 {
+        font-size: 60px;
+    }
+
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        width: 90%;
+        height: 50%;
+    }
+
+    .icon-font p {
+        margin: 0;
+    }
+
+    /* ==============
+    sidebar
+    ============== */
+
+    .sidebar {
+        width: 100vw;
+        height: 55px;
+        flex-direction: row;
+        position: absolute;
+    }
+
+    .brand {
+        width: 55px;
+        height: 100%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    #menu-list {
+        display: none;
+        position: fixed;
+        background: #222;
+        top: 54px;
+        width: 100%;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fa-bars {
+        display: block;
+        margin: 1em;
+    }
+
+    .tooltip {
+        left: 0;
+        right: 0;
+        top: 85px;
+        padding: 0.5em 1.5em;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .tooltip::after {
+        border-color: transparent;
+    }
+
+    /* ==============
+    home content
+    ============== */
+
+    .home {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .typewrite {
+        font-size: 16px;
+    }
+
+    /* ==============
+    about content
+    ============== */
+
+    .user {
+        flex-direction: column-reverse;
+    }
+
+    .prolog p {
+        font-size: 18px;
+        margin-top: 1em;
+    }
+
+    .btn {
+        margin-top: 1em;
+    }
+
+    .btn-download {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .btn li {
+        margin: 0.2em;
+    }
+
+    .service {
+        margin-top: 2em;
+    }
+
+    /* ==============
+    resume content
+    ============== */
+
+    .cogs {
+        flex-direction: column-reverse;
+    }
+
+    .resume {
+        margin-top: 1em;
+    }
+
+    /* ==============
+    portfolio content
+    ============== */
+
+    .portfolio {
+        flex-direction: column-reverse;
+    }
+
+    .card-item {
+        margin-top: 1em;
+    }
+
+    .desc {
+        height: 40px;
+        padding: 0;
+    }
+
+    .desc p {
+        font-size: 16px;
+    }
+
+    /* ==============
+    contact content
+    ============== */
+
+    .contact {
+        flex-direction: column-reverse;
+    }
+
+    .contact-list {
+        margin-top: 1em;
+    }
+
+
+}
+
+@media all and (max-width: 500px) {
+    
+    /* ==============
+    universal
+    ============== */
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        width: 48%;
+        padding: 20px 15px;
+    }
+
+    .container {
+        width: 90%;
+        height: 28%;
+    }
+
+    #imgtext {
+        font-size: 16px;
+    }
+
+    .closebtn {
+        font-size: 18px;
+    }
+
+    .our p {
+        font-size: 14px;
+    }
+
+    .icon-font h3 {
+        margin: 0 0 0.1em 0;
+        font-size: 26px;
+    }
+
+    .flexrow label {
+        font-size: 16px;
+    }
+
+    .bg-row {
+        padding: 16px 10px;
+    }
+
+    .icon-font p {
+        font-size: 12px;
+        margin: 5px 0 0 0;
+    }
+
+    input {
+        padding: 0.5em 0;
+        margin: 5px;
+        width: 97%;
+    }
+
+    textarea {
+        padding: 0.5em 0;
+    }
+
+    /* ==============
+    resume content
+    ============== */
+
+    .skill h4 {
+        font-size: 14px;
+    }
+}
