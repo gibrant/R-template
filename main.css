@@ -1,0 +1,642 @@
+/* ==============
+    universal
+============== */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: #333;
+}
+
+.page {
+    display: flex;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 0 2em 0;
+}
+.flexrow {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bg-row {
+    background-color: #444;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #222;
+    padding: 26px 20px;
+    margin: 10px 0;
+}
+
+.flexrow h3 {
+    padding: 0 0.5em 0 0;
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 1em 0;
+}
+
+input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 1em 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.our {
+    background: #444;
+    margin: 10px 0;
+    padding: 26px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #222;
+}
+
+.our h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+hr {
+    margin: 10px 0;
+    opacity: 0.1;   
+}
+
+.our p {
+    text-align: left;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.our label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon-font h3 {
+    font-size: 44px;
+    color: dodgerblue;
+}
+
+.prolog h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+    display: inline;
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    opacity: 0.1;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-span {
+    color: dodgerblue;
+}
+
+.sub-title {
+    text-transform: capitalize;
+}
+
+.submit {
+    background: none;
+    border: none;
+    display: block;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.btn-bgdark {
+    background: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.flex {
+    flex: 1;
+}
+
+.btn-bgdark:hover{
+    color: dodgerblue;
+}
+
+.container {
+    position: fixed;
+    width: 70%;
+    height: 70%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+    position: relative;
+    z-index: 1;
+}
+
+.container:before {
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    text-shadow: 0 0 10px #222;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 2;
+    text-shadow: 0 0 10px #222;
+}
+
+::-webkit-scrollbar {
+    background: none;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* ==============
+    sidebar
+============== */
+.sidebar {
+    background: #222;
+    width: 55px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1001;
+}
+
+.brand {
+    background: dodgerblue;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1em 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+}
+
+#menu-list {
+    display: block;
+}
+
+.icon li {
+    padding: 1em;
+}
+
+.icon a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s all ease-in-out;
+}
+
+.icon a:active {
+    color: dodgerblue;
+}
+
+.icon a:hover {
+    color: dodgerblue;
+}
+
+.tooltip {
+    background: #222;
+    padding: 5px 10px;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 60px;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    background: none;
+    margin-top: 5%;
+    margin-left: -105%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #222 transparent transparent;
+}
+
+a:hover ~ .tooltip {
+    display: block;
+}
+
+.fa-bars {
+    display: none;
+    cursor: pointer;
+    transition: 300ms all ease;
+}
+
+.fa-bars:hover {
+    color: dodgerblue
+}
+
+.fa-bars:active {
+    transform: rotate(45deg);
+}
+
+/* ==============
+    home content
+============== */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url(landscape.jpg), #444;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home h1 {
+    font-size: 60px;
+}
+
+.typewrite {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ==============
+    about content
+============== */
+.user {
+    display: flex;
+    height: 100vh;
+}
+
+.about-inner {
+    background: #333;
+    padding: 1.5em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.prolog p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    z-index: 1;
+    margin-top: 3em;
+}
+
+.about-inner span {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.user .background {
+    background: url(beach.jpg);
+    background-size: cover;
+}
+
+.btn {
+    list-style-type: none;
+    display: flex;
+    margin-top: 3em;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-download {
+    background: #444;
+    padding: 0.8em 1em;
+    border-radius: 30px;
+    position: relative;
+    width: 160px;
+}
+
+.btn li {
+    margin: 0 0.2em;
+    box-shadow: 0 0 30px #222;
+}
+
+.btn a {
+    transition: 0.3s all ease-in-out;  
+}
+
+.btn a:hover {
+    color: dodgerblue;
+}
+
+.link {
+    border-radius: 50%;
+    background: #444;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-github, .fa-telegram, .fa-whatsapp {
+    font-size: 20px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.service {
+    margin-top: 4em;
+}
+
+.service h2 {
+    text-transform: capitalize;
+}
+
+/* ==============
+    resume content
+============== */
+.cogs {
+    display: flex;
+    height: 100vh;
+}
+
+.resume-inner {
+    background: #333;
+    padding: 1.5em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.cogs .background {
+    background: url(pine\ tree.jpg);
+    background-size: cover;
+}
+
+.resume {
+    margin-top: 5em;
+}
+
+.skill h4 {
+    text-transform: uppercase;
+}
+
+.skill-name {
+    margin: 5px 0;
+}
+
+.skillbar {
+    width: 100%;
+    height: 8px;
+    background: white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.html {
+    width: 95%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.css {
+    width: 90%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.bootstrap {
+    width: 70%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.javascript {
+    width: 30%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.jquery {
+    width: 30%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.communication {
+    width: 80%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.teamwork {
+    width: 60%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.language {
+    width: 70%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.leadership {
+    width: 40%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.responsible {
+    width: 85%;
+    height: 100%;
+    background: dodgerblue;
+}
+
+/* ==============
+    portfolio content
+============== */
+
+.portfolio {
+    display: flex;
+    height: 100vh;
+}
+
+.portfolio-inner {
+    background: #333;
+    padding: 1.5em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.portfolio .background {
+    background: url(waterfall.jpg);
+    background-size: cover;
+}
+
+.card-item {
+    margin-top: 5em;
+}
+
+.card-link {
+    padding: 0;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: 500ms all ease-in-out;
+}
+
+.image img{
+    width: 100%;
+}
+
+.image:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.desc {
+    padding: 0.5em 1em;
+    height: 70px;
+    align-items: center;
+    position: relative;
+}
+
+.desc p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ==============
+    contact content
+============== */
+.contact {
+    display: flex;
+    height: 100vh;
+}
+
+.contact-inner {
+    background: #333;
+    padding: 1.5em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.contact-list {
+    margin-top: 5em;
+}
+
